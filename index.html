@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FocusTimer2.0</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+ 
+  <main>
+   <div class="container">
+
+     <div id="timer">
+       <span id="minutes" class="minutes">25</span>
+       <span class="divisão">:</span>
+       <span id="seconds" class="seconds">00</span>
+     </div>
+
+    <div id="controns">
+
+      <button  class="play" id="play" >
+        <img src="./image/play.png" alt="desenho do play">
+      </button>
+  
+      <button class="stop " id="stop">
+        <img src="./image/stop.png" alt="desenho do stop">
+      </button>
+  
+      <button id="add" class="add">
+        <img src="./image/+.png" alt="desenho sinal de mais">
+      </button>
+  
+      <button id="decrease" class="decrease">
+        <img src="./image/-.png" alt="desenho sinal de menos">
+      </button>
+
+    </div>
+
+
+   </div> 
+
+   <div id="cards" class="cards">
+    <button class="sound-floreta" >
+
+      <img src="./image/Card 01.png" alt="desenho de uma arvore">
+      <audio src="/sound/Floresta (1).wav" class="soundFloreta"></audio>
+    </button>
+    <button class="sound-rain" id="sound-rain">
+      <img src="./image/Card 02.png" alt="desenho de uma nuvem com pingos">
+      <audio  src="/sound/Chuva (1).wav" class="sound-rain"></audio>
+    </button>
+
+    <button class="sound-cafeteira">
+      <img src="./image/Card 03.png" alt="desenho de uma casinha">
+      <audio src="/sound/Cafeteria (1).wav"></audio>
+    </button>
+    <button class="sound-lareira">
+
+      <img src="./image/Card 04.png" alt="desenho de uma chama de fogo">
+    </button>
+   </div>
+
+  </main>
+   <script src="./index.js" type="module"></script>
+</body>
+</html>
